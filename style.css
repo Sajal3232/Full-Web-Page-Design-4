@@ -312,3 +312,60 @@ background-repeat: no-repeat;
 .mtop{
     margin-top: -20px;
 }
+/* apply-section left */
+.apply-item{
+   
+}
+.apply-item ul{
+    list-style: none;
+    position: relative;
+}
+.apply-item ul::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    /* height: 87%; */
+    height: calc(100% - 54px);
+    background-color: #e73c3e;
+}
+.apply-item ul li{
+    position: relative;
+    padding-left: 20px;
+}
+.apply-item ul li::before {
+    content: attr(data-counter);
+    position: absolute;
+    left: -52px;
+    right: 0;
+    top: 0px;
+    height: 40px;
+    width: 40px;
+    background-color: #f9fafb;
+    border: 1px solid #ea6061;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+}
+
+.apply-item ul li p{}
+.apply-item ul li strong {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 10px;
+}
+/* /* apply-section right */
+.form-section{
+    background-color: #fdebeb;
+    padding: 50px;
+}
+.form-input-section{
+    margin-bottom: 20px;
+}
+.form-group{}
+.form-group label {
+    margin: 15px 0px;
+}
+.form-group input{}
+
