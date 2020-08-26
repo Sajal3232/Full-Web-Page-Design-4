@@ -7,6 +7,9 @@ h1,h2,h3,h4,h5,h6,a{
 .main-div .container-fluid{
     max-width: 1280px;
 }
+img{
+    max-width: 100%;
+}
 .all-bg{
     background-color: #f9fafb;
 }
@@ -369,3 +372,111 @@ background-repeat: no-repeat;
 }
 .form-group input{}
 
+/* call=to=us */
+.call-to-text{
+    background-color: #e73c3e;
+    padding: 30px;
+}
+h2.call-h2 {
+    color: white;
+    font-weight: 400;
+    font-size: 31px;
+    border-right: 1px solid #ffff;
+    margin-right: 10px;
+}
+.call-to-us-phone span{}
+.call-to-us-phone span i {
+    height: 60px;
+    width: 60px;
+    background-color: #fff;
+    color: #e73c3e;
+    font-size: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 58px;
+}
+.call-to-us-phone a{
+        color: white;
+        font-size: 30px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    /* <!-- company values section --> */
+    .company-value h2{}
+    .company-item-icon i {
+        color: #e85052;
+        font-size: 40px;
+        margin-right: 10px;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        line-height: 60px;
+    }
+    .company-item-text span {
+        color: #111111;
+        font-size: 25px;
+        font-weight: 700;
+        display: block;
+        margin-bottom: 5px;
+    }
+    .company-item-text p{}
+
+    /* service-section */
+    .service-tab-item {
+        border-bottom: 2px solid #dddd;
+    }
+    .service-tab-item li{
+        flex: 1 1 auto;
+    }
+    
+    .service-tab-item li a span i {
+        height: 59px;
+        width: 58px;
+        text-align: center;
+        font-size: 25px;
+        line-height: 57px;
+        border-radius: 50%;
+        background-color: #ffffff;
+        color: #6c6460;
+        box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+    }
+    .service-tab-item li a:hover span i{
+        color: red;
+    }
+    .service-tab-item li a:hover{
+        position: relative;
+    }
+    .service-tab-item li a:hover::after{
+        content: "";
+        height: 1px;
+        width: 180px;
+        background-color: red;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        overflow: hidden;
+
+    }
+
+    .service-tab-item li a strong {
+        color: #000000;
+        font-size: 20px;
+        margin: 13px 0px;
+    }
+
+    .service-tab-content ul{
+        list-style: none;
+        padding-left: 0px;
+    }
+    .service-tab-content ul li{
+        position: relative;
+    }
+    .service-tab-content ul li::before {
+        content: "";
+        height: 10px;
+        width: 10px;
+        display: inline-block;
+        background-color: #e83b3e;
+        border-radius: 50%;
+        margin-right: 15px;
+    }
