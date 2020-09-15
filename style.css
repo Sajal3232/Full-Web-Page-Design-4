@@ -5,7 +5,7 @@ h1,h2,h3,h4,h5,h6,a{
     font-family: 'Rubik', sans-serif;
 }
 /* .main-div .container-fluid{
-    max-width: 14px;
+    max-width: 1300px;
 } */
 img{
     max-width: 100%;
@@ -72,15 +72,18 @@ ul.primary-menu li a:hover{
     border-right: 2px solid #ddd;
     margin-right: 15px;
 }
-.header-item-call-contact{
-    margin-right: 10px;
+.header-item-call-contact {
+    margin:0px 5px;
+    position: relative;
+    left: -20px;
 }
 .header-item-call-contact span{
     font-weight: 600;
     color: #111
 }
-.header-item-call-contact a{
+.header-item-call-contact a {
     color: #111;
+    font-size: 15px;
 }
 .header-item-call-icon span {
     font-size: 30px;
@@ -711,6 +714,48 @@ h2.call-h2 {
 }
 .footer-widget li:hover{
     color:#e85052;
+}
+
+.navbar-brand img {
+    max-width: 130px;
+}
+i.fas.fa-phone {
+    font-size: 22px;
+    margin-right: 0px;
+}
+/* responsive */
+@media(max-width:1384px){
+    ul.primary-menu li a {
+        padding: 10px 21px;
+    
+    }
+
+}
+/* @media(max-width:1134){
+    .navbar .navbar-nav li a{ font-size: 12px;
+    padding: 10px 10px;}
+} */
+
+@media(max-width:992px){
+    ul.primary-menu li .our-drop {
+        position: absolute;
+        left: 70px;
+        top: -40%;
+}
+}
+
+@media only screen and (max-width: 1268px) and (min-width: 768px){
+ .navbar .navbar-nav li a {
+    font-size: 15px;
+    padding: 10px 10px;
+}}
+
+
+@media (min-width: 768px){
+    .navbar-expand-md .navbar-collapse {
+        flex-basis: auto;
+    }
+
 }
 
 
